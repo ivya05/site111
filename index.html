@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fun Learning Site</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    body {
+      background-color: #fefae0;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb703;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+
+    }
+
+    h2, h3{
+        font-size: 40px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 10px;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-color: #8ecae6;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero button {
+      background-color: #ffb703;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .hero button:hover {
+      background-color: #fb8500;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #023047;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffb703;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-content p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Fun Learning Logo">
+      <h1> Fun Learning</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Let's Learn and Play Together!</h2>
+    <p>Explore fun coding, math, and science activities made just for kids.</p>
+    <button>Start Learning</button>
+  </section>
+
+  <section class="cards">
+    <div class="card">
+      <h3> Coding</h3>
+      <p>Learn basic coding with colorful blocks and fun challenges!</p>
+    </div>
+    <div class="card">
+      <h3>Math Games</h3>
+      <p>Play and learn math in a fun and easy way!</p>
+    </div>
+    <div class="card">
+      <h3> Science Fun</h3>
+      <p>Discover cool experiments and amazing facts about our world!</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Fun Learning | Made with love for kids</p>
+      <p>Contact us: <a href="mailto:funlearning@gmail.com">funlearning@gmail.com</a></p>
+      <p>Call us: +60 123 456 789</p>
+    </div>
+  </footer>
+</body>
+</html>
